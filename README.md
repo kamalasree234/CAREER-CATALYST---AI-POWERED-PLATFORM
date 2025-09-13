@@ -10,3 +10,5 @@ Key features of Career Catalyst include:
 •	Technology Exploration: Users can read about different technologies, industry insights, and expert-written blogs to expand their knowledge base. 
 •	Personalized Experience: Every feature is tailored to the user's preferences, ensuring a customized and interactive career planning journey. 
 With a user-friendly interface and AI-driven insights, Career Catalyst serves as an all-in-one solution for individuals aiming to navigate their careers with confidence and clarity. 
+
+Picture11.jpg
