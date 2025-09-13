@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials, auth, firestore
 
 # Initialize Firebase
-cred = credentials.Certificate("n")
+cred = credentials.Certificate("")
 firebase_admin.initialize_app(cred)
 
 def verify_token(id_token: str):
@@ -15,4 +15,5 @@ def verify_token(id_token: str):
         return None
     
 db = firestore.client()
+
 auth = firebase_admin.auth 
