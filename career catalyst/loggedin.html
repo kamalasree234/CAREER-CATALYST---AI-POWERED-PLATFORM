@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Catalyst</title> 
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <script src="main.js"></script>
+    
+    
+
+
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <h1>Career Catalyst</h1>
+          </a>
+        </div>
+
+        <div class="main-menu">
+          <ul>
+              <li>
+                  <a href="index.html">Home</a>
+              </li>
+              <li>
+                  <a href="#c1">About us</a>
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5001">Job opportunities</a>
+            </li>
+              <!-- Dropdown for Explore -->
+              <li class="dropdown">
+                  <a href="#t1" class="dropbtn"> Explore ▼</a>
+                  <div class="dropdown-content">
+                    <a href="#t1">Trending Technologies</a>
+                    <a href="#b1">Blogs & Insights</a>
+                    <a href="news/news.html">News & Updates</a>
+                    <a href="#skills">Explore Couses</a>
+                  </div>
+              </li>
+       <li>
+                  <a class="btn try-now" href="http://127.0.0.1:5000/" >Try Now</a>
+              </li>
+              <p id="status"></p>
+              <li>
+                <div class="user-icon" onclick="toggleDropdown()"><img src="user.png">
+                    <div class="dropdown1" id="userDropdown">
+                      <button id="historyButton">My History</button>
+                      <ul id="historyList"></ul>                      
+                        <a onclick="fetchData('interest')">My Interest</a>
+                        <a onclick="fetchData('account')">My Account</a>
+                    </div><div class="user-info">
+                  <i class=""></i> 
+                  <span id="user-email">Loading...</span>  <!-- Email will be inserted here -->
+             <button id="logout-btn">Logout</button> </div>
+              
+                </div>
+                
+              </li>
+             
+          </ul><div id="history-container">
+            
+            <ul id="history-list"></ul>
+        </div>
+
+      
+          <!-- Hamburger Button -->
+          <button class="hamburger-button">
+              <div class="hamburger-line"></div>
+              <div class="hamburger-line"></div>
+              <div class="hamburger-line"></div>
+          </button>
+      
+          <!-- Mobile Menu -->
+          <div class="mobile-menu">
+              <ul>
+                  <li>
+                      <a href="index.html">🏠 Home</a>
+                  </li>
+                  <li>
+                      <a href="#h1">💡 Who We Are</a>
+                  </li>
+                  <li class="dropdown">
+                      <a href="#t1" class="dropbtn">🌎 Explore ▼</a>
+                      <div class="dropdown-content">
+                          <a href="#trending">🔍 Trending Fields</a>
+                          <a href="#skills">🚀 Emerging Skills</a>
+                          <a href="#learning">📚 Learning Hub</a>
+                          <a href="#career">💼 Career Compass</a>
+                      </div>
+                  </li>  <li>
+                      <a class="btn try-now" href="http://127.0.0.1:5000/"> Try Now</a>
+                  </li>
+                  <li>
+                      <a class="btn" href="#"> <i class="fas fa-user"></i> 🔑 Get Started</a>
+                  </li>
+                
+              </ul>
+          </div>
+      </nav>
+     
+
+    <!-- Hero -->
+    <section class="hero" id="h1" >
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-heading text-xxl">
+            CAREER CATALYST  </h1>
+            <h2 class="gradient-text">Your Roadmap to Success, Your Partner in Growth!
+         </h2>
+          <p class="hero-text">
+            Career Catalyst is your ultimate career roadmap generator, designed to guide you towards the right opportunities and professional growth. Whether you're a student, job seeker, or working professional, we help you navigate your career path with personalized roadmaps, trending job insights, and skill-building resources.
+          </p>
+          <div class="hero-buttons">
+            <a  class="btn btn-primary" id="startFlaskApp" href="http://127.0.0.1:5000/">Try Now</a>
+            
+          </div>
+        </div>
+        <div class="hero-video">
+          <img src="steps.png">
+        </div>
+      </div>
+    </section>
+    <!-- Mission Section-->
+    <section class="career-section " id="c1">
+      <div class="mission" >
+      <h3>Our Mission, Vision, and Goals</h3>
+    </div>
+    <div class="card-container">
+      <div class="card">
+          <img src="cmission.png" alt="Mission">
+          <div class="overlay">
+              <h2>Mission</h2>
+              <p>Empowering individuals with career growth and opportunities.</p>
+          </div>
+      </div>
+
+      <div class="card">
+          <img src="cvision.png" alt="Vision">
+          <div class="overlay">
+              <h2>Vision</h2>
+              <p>To be the leading career roadmap provider for students and professionals.</p>
+          </div>
+      </div>
+
+      <div class="card">
+          <img src="cgoals.png" alt="Goals">
+          <div class="overlay">
+              <h2>Goals</h2>
+              <p>Providing personalized guidance for every career journey.</p>
+          </div>
+      </div>
+      </div>
+  </section>
+
+
+
+    <!-- Video Section -->
+    
+    <section class="video-section " id="a1">
+      <div class="container1">
+          <!-- Left Side: Typewriter Text -->
+          <div class="text-box">
+              <h2 class="typewriter">
+                  <div class="vidcontent">Come, Learn, and Let's Grow Together! </div><br>
+                 <div class="f1"> With Career Catalyst, success isn’t just a destination— it’s a journey we build together! </div>
+              </h2>
+              <a href="http://127.0.0.1:5000/" class="btn btn-primary">Try Now</a>
+          </div>
+
+          <!-- Right Side: Video -->
+          <div class="video-box">
+              <video autoplay controls>
+                  <source src="vid.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+      </div>
+  </section>
+    
+    
+    <!-- Testimonials -->
+    <section class="testimonials " id="t1">
+      <div class="container">
+        <h3 class="testimonials-heading text-xl">Top Tech Trends 2025</h3>
+        <div class="testimonials-grid">
+          <div class="carousel">
+            <div class="carousel-track">
+          <div class="card" style="background-image: url('ai.jpg');">
+            <p>ARTIFICIAL INTELLIGENCE</p>
+            <p>AI is continuously evolving to perform tasks without human intervention.</p>
+            <a href="ai-article.html" class="read-more">Read More</a>
+          </div>
+    
+          <div class="card" style="background-image: url('h.jpg');">
+            <p>HEALTHCARE & BIOTECHNOLOGY</p>
+            <p>AI-powered diagnostics  are revolutionizing medical treatments.</p>
+            <a href="biotech-article.html" class="read-more">Read More</a>
+          </div>
+    
+          <div class="card" style="background-image: url('s.jpg');">
+            <p>SPACE TECHNOLOGY</p>
+            <p>Space-based solar power (SBSP) aims to harvest solar energy in space for Earth.</p>
+            <a href="space-tech.html" class="read-more">Read More</a>
+          </div>
+    
+          <div class="card" style="background-image: url('ag.jpg');">
+            <p>AGRICULTURE & FOODTECH</p>
+            <p>Vertical farming uses AI for controlled indoor food production with minimal resources.</p>
+            <a href="agriculture-tech.html" class="read-more">Read More</a>
+          </div>
+    
+          <div class="card" style="background-image: url('e.jpg');">
+            <p>EDUCATION & LEARNING</p>
+            <p>AI tutors are providing personalized learning experiences for students.</p>
+            <a href="education-vr.html" class="read-more">Read More</a>
+          </div>
+    
+          <div class="card" style="background-image: url('a.jpg');">
+            <p>AUTOMOTIVE TRANSPORTATION</p>
+            <p>Self-driving cars and eVTOL aircraft are paving the way for urban air mobility.</p>
+            <a href="automotive-tech.html" class="read-more">Read More</a>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+          let userEmail = localStorage.getItem("userEmail");
+          if (userEmail) {
+              document.getElementById("user-email").textContent = userEmail;
+          }
+      });
+  </script>
+    <script id="a1">
+    document.addEventListener('DOMContentLoaded', () => {
+      const track = document.querySelector('.carousel-track');
+      track.innerHTML += track.innerHTML; // Duplicate elements for seamless loop
+    
+      let scrollAmount = 0;
+      const scrollSpeed = 2; // Increase speed for better movement
+    
+      function autoScroll() {
+        scrollAmount += scrollSpeed;
+        
+        if (scrollAmount >= track.scrollWidth / 2) {
+          scrollAmount = 0;
+          track.style.transition = 'none'; // Instantly reset position
+          track.style.transform = `translateX(0)`;
+        } else {
+          track.style.transition = 'transform 0.1s linear';
+          track.style.transform = `translateX(-${scrollAmount}px)`;
+        }
+    
+        requestAnimationFrame(autoScroll);
+      }
+    
+      autoScroll();
+    });
+    
+    </script>
+<!-- blogs -->
+    <section class ="blogs " id="b1">
+      <div class ="container">
+        <h3 class="blogs-heading text-xl">The Career Hub:Blogs & Insights</h3>
+        <div class="blogs-grid">
+          <div class="carousel1">
+           <div class="carousel1-track">
+          <div class="card" style="background-image: url('trends.jpg');">
+            <p>Future Career Trends</p>
+            <p>Workplace Trends For 2025</p>
+            <a href="https://careerfoundry.com/en/blog/career-change/workplace-trends/" class="read-more">Read More</a>
+          </div>    
+      
+
+        <div class="card" style="background-image: url('options.jpg');">
+          <p>Explore Career Options</p>
+          <p>Workplace Trends For 2025</p>
+          <a href="https://www.mindgroom.com/blog/most-popular-career-options-in-india/" class="read-more">Read More</a>
+        </div>    
+   
+
+  
+      <div class="card" style="background-image: url('resume.jpg');">
+        <p>Resume tips</p>
+        <p>Make your resume standout of the crowd.</p>
+        <a href="https://resumeworded.com/resume-tips-key-advice" class="read-more">Read More</a>
+      </div>    
+
+
+  
+    <div class="card" style="background-image: url('soft.jpg');">
+      <p>Soft skills</p>
+      <p>The role of soft skills in todays job market</p>
+      <a href="https://www.gisma.com/blog/the-role-of-soft-skills-in-todays-job-market-what-employers-really-want" class="read-more">Read More</a>
+    </div>    
+
+
+
+  <div class="card" style="background-image: url('in.jpg');">
+    <p>Linkedin Cheatsheet</p>
+    <p>5 tips for a professional profile</p>
+    <a href="https://www.workitdaily.com/linkedin-cheat-sheet" class="read-more">Read More</a>
+</div>
+
+
+  <div class="card" style="background-image: url('aij.jpg');">
+    <p>AI Jobs in 2025</p>
+    <p>Explore AI Career Paths</p>
+    <a href="https://onlinedegrees.sandiego.edu/artificial-intelligence-jobs/" class="read-more">Read More</a>
+  </div>    
+</div>
+</div>
+</div>
+<script type="module" src="his1.js"></script>
+<script type="module" src="loggedin.js"></script>
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+<script id="a2">
+ document.addEventListener('DOMContentLoaded', () => {
+  const track1 = document.querySelector('.carousel1-track');
+  track1.innerHTML += track1.innerHTML; // Duplicate elements for seamless loop
+
+  let scrollAmount1 = 0;
+  const scrollSpeed = 2; // Adjusted speed for smooth movement
+
+  function autoScroll1() {
+    scrollAmount1 += scrollSpeed;
+    
+    if (scrollAmount1 >= track1.scrollWidth / 2) {
+      scrollAmount1 = 0;
+      track1.style.transition = 'none'; // Instantly reset position
+      track1.style.transform = `translateX(0)`;
+    } else {
+      track1.style.transition = 'transform 0.1s linear';
+      track1.style.transform = `translateX(-${scrollAmount1}px)`;
+    }
+
+    requestAnimationFrame(autoScroll1);
+  }
+
+  autoScroll1();
+});
+
+</script>
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById("userDropdown");
+        dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    }
+
+    function fetchData(section) {
+        firebase.auth().currentUser.getIdToken(true).then((token) => {
+            fetch(`http://127.0.0.1:8000/${section}`, {
+                method: "GET",
+                headers: {
+                    "Authorization": `Bearer ${token}`,
+                    "Content-Type": "application/json"
+                }
+            })
+            .then(response => response.json())
+            .then(data => alert(`Fetched data: ${JSON.stringify(data)}`))
+            .catch(error => console.error("Error fetching data:", error));
+        });
+    }
+
+    document.addEventListener("click", function(event) {
+        var dropdown = document.getElementById("userDropdown");
+        if (!event.target.closest(".user-icon")) {
+            dropdown.style.display = "none";
+        }
+    });
+</script>
+
+
+
+    </section>
+    <!-- FAQ -->
+    <section class="faq ">
+      <div class="container-sm">
+        <h3 class="text-xl text-center">Frequently Asked Questions</h3>
+        <ul class="faq-menu">
+          
+        </ul>
+        <div class="faq-content">
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                What is Career Catalyst?
+              </h4>
+              <i class="fas fa-minus"></i>
+            </div>
+            <div class="faq-group-body open">
+              <p>
+                Career Catalyst is a platform designed to help students and professionals navigate their career journey with personalized guidance, resources, and opportunities.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                Who can use Career Catalyst?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Our platform is open to students, job seekers, working professionals, and anyone looking to grow in their career.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                How does Career Catalyst help in career growth?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                We provide career roadmaps, skill-building resources, mentorship, and job opportunities to help users achieve their career goals.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                How can I find the right career path?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Career Catalyst offers career assessments and expert consultations to help you identify the best career path based on your skills and interests.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">Can I switch careers with the help of Career Catalyst?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Absolutely! We provide resources, upskilling programs, and career transition guides to help you switch careers successfully.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                What makes Career Catalyst different from other career platforms?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Career Catalyst offers a unique combination of personalized career guidance, mentorship, skill-building courses, and job opportunities, all tailored to your career goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.getElementById("startFlaskApp").addEventListener("click", function(event) {
+          event.preventDefault();
+  
+          fetch("http://127.0.0.1:5000/start_server")
+              .then(response => response.json())
+              .then(data => {
+                  document.getElementById("status").innerText = data.message;
+  
+                  // ✅ Redirect if Flask is running
+                  if (data.message.includes("Flask App is already running!") || data.message.includes("Started")) {
+                      window.location.href = "http://127.0.0.1:5000/"; // Go to Flask app
+                  }
+              })
+              .catch(error => console.error("Fetch Error:", error));
+      });
+  </script>
+  
+  <script>
+    async function fetchData(type) {
+        if (type === 'history') {
+            const userId = "USER_ID_HERE";  // Replace with dynamic user ID if available
+            const response = await fetch(`http://127.0.0.1:8000/get_history/${userId}`);
+            const data = await response.json();
+
+            if (data.history.length === 0) {
+                document.getElementById("history-list").innerHTML = "<li>No history found.</li>";
+            } else {
+                let historyHTML = "";
+                data.history.forEach(item => {
+                    historyHTML += `<li><a href="${item.link}" target="_blank">${item.career}</a></li>`;
+                });
+                document.getElementById("history-list").innerHTML = historyHTML;
+            }
+        }
+    }
+</script>
+  
+    <!-- Footer -->
+    <footer class="footer ">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.html">
+            </a>
+            <div class="card">
+              <h4>Subscribe to Career Catalyst</h4>
+              <p class="text-sm">
+                Subscribe Now & Unlock Your Career Potential!
+              </p>
+              <form>
+                <input type="email" id="email" placeholder="Enter your email" />
+                <button type="submit" class="btn btn-primary btn-block">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+          <div>
+            <h4>Career Catalyst</h4>
+            <ul>
+              <li><a href="#c1">About Us</a></li>
+              <li><a href="#t1">Explore</a></li>
+              <li><a href="#h1">Try Now</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#t1">Tech Trends</a></li>
+              <li><a href="#b1">Blogs</a></li>
+              <li><a href="#">Skill Development</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li>
+                <a href="#">careercatalyst@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

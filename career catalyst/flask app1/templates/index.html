@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Roadmap</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.4.0/mermaid.min.js"></script>
+   
+    
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>CAREER CATALYST</h1>
+        <h1>Find Your Career Roadmap</h1>
+        <input type="text" id="careerInput" placeholder="Enter your desired career role...">
+        <div class="roadmap-section"><button onclick="getRoadmap()">Get Roadmap</button></div>
+        <button onclick="downloadPDF()">Download as PDF</button>
+        <button onclick="generateShareableLink()">Share</button>
+        <button onclick="generateFlowchart()">Generate Flowchart</button>
+<div id="flowchartContainer"></div>
+
+        <button onclick="compareCareers()">Compare</button> 
+        <div id="compareContainer" style="display: none;">
+            <input type="text" id="career1Input" placeholder="Enter first career">
+            <input type="text" id="career2Input" placeholder="Enter second career">
+            <button onclick="fetchComparison()">Compare Now</button>
+        </div>
+        <div id="roadmapOutput"></div>
+    </div>
+    <div class="loading-container" id="preloader" style="display:none;">
+        <img src="static\loading.gif" alt="Loading..." class="loading-gif" >
+        <p>Generating Roadmap...</p>
+    </div>
+    
+<script>
+  async function getRoadmap() {
+    const career = document.getElementById("careerInput").value;
+    if (!career) {
+        alert("Please enter a career role");
+        return;
+    }
+
+    console.log("Fetching roadmap for:", career);
+
+    document.getElementById("preloader").style.display = "block";
+    document.getElementById("roadmapOutput").innerHTML = "";
+
+    try {
+        const response = await fetch(`/get_roadmap?nocache=${new Date().getTime()}`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ career: career })
+        });
+
+        console.log("Raw Response:", response);
+
+        const data = await response.json();
+        console.log("Parsed JSON:", data);
+
+        if (!data || Object.keys(data).length === 0) {
+            throw new Error("Received empty response from server");
+        }
+
+        let formattedText = data.roadmap
+            .replace(/Qualifications:/g, '<span class="section-title qualifications">Qualifications:</span>')
+            .replace(/Skills:/g, '<span class="section-title skills">Skills:</span>')
+            .replace(/Best Online Courses & Resources:/g, '<span class="section-title courses">Best Online Courses & Resources:</span>')
+            .replace(/YouTube Channels:/g, '<span class="section-title youtube">YouTube Channels:</span>')
+            .replace(/Job Opportunities:/g, '<span class="section-title jobs">Job Opportunities:</span>')
+            .replace(/Latest Trends & Advancements:/g, '<span class="section-title trends">Latest Trends & Advancements:</span>')
+            .replace(/Motivation:/g, '<span class="section-title motivation">Motivation:</span>');
+
+        document.getElementById("roadmapOutput").innerHTML = `
+        <div class="ai-response">
+            <h2>${career} Roadmap</h2>
+            <p>${formattedText.replace(/\n/g, "<br>")}</p>
+        </div>`;
+    } catch (error) {
+        console.error("Error fetching roadmap:", error);
+        document.getElementById("roadmapOutput").innerHTML = `<p style="color: red;">Error fetching roadmap.</p>`;
+    }
+    finally {
+        // Hide the preloader after fetching data
+        document.getElementById("preloader").style.display = "none";
+    }
+}
+
+function generateShareableLink() {
+    let career = document.getElementById("careerInput").value.trim();
+    if (!career) {
+        alert("Please enter a career role to generate a link.");
+        return;
+    }
+
+    let shareableLink = `${window.location.origin}?career=${encodeURIComponent(career)}`;
+
+    // Copy the link to clipboard
+    navigator.clipboard.writeText(shareableLink)
+        .then(() => alert("Link copied! Share this: " + shareableLink))
+        .catch(err => console.error("Error copying link: ", err));
+}
+window.onload = function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const career = urlParams.get("career");
+
+    if (career) {
+        document.getElementById("careerInput").value = career;
+        getRoadmap(); // Automatically fetch roadmap
+    }
+};
+
+
+        function compareCareers() {
+    document.getElementById("compareContainer").style.display = "block";
+}
+
+async function fetchComparison() {
+    const career1 = document.getElementById("career1Input").value;
+    const career2 = document.getElementById("career2Input").value;
+
+    if (!career1 || !career2) {
+        alert("Please enter both career roles to compare.");
+        return;
+    }
+
+    console.log("Comparing:", career1, "vs", career2);
+    document.getElementById("preloader").style.display = "block";
+    document.getElementById("roadmapOutput").innerHTML = "";
+
+
+    try {
+        const response = await fetch(`/compare_careers`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ career1, career2 })
+        });
+
+        const data = await response.json();
+
+        if (!data || Object.keys(data).length === 0) {
+            throw new Error("Received empty response from server");
+        }
+
+        document.getElementById("roadmapOutput").innerHTML = `
+        <div class="ai-response">
+            <h2>Career Comparison</h2>
+            <p>${data.comparison.replace(/\n/g, "<br>")}</p>
+        </div>`;
+    } catch (error) {
+        console.error("Error fetching comparison:", error);
+        document.getElementById("roadmapOutput").innerHTML = `<p style="color: red;">Error fetching comparison.</p>`;
+    }
+    finally {
+        // Hide the preloader after fetching data
+        document.getElementById("preloader").style.display = "none";
+    }
+}
+
+
+
+function downloadPDF() {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF({
+        orientation: "p", // Portrait mode
+        unit: "mm",
+        format: "a4" // Standard A4 size
+    });
+
+    let career = document.getElementById("careerInput").value;
+    let content = document.getElementById("roadmapOutput").innerText;
+
+    if (!content.trim()) {
+        alert("No content to download. Please generate the roadmap first.");
+        return;
+    }
+
+    let marginLeft = 10;
+    let marginTop = 20;
+    let pageHeight = doc.internal.pageSize.height;
+    let lineHeight = 7;
+    let y = marginTop;
+
+    doc.setFont("times", "normal");
+    doc.setFontSize(14);
+    doc.text(`Career Roadmap for ${career}`, marginLeft, 10);
+    
+    doc.setFontSize(12);
+    let textLines = doc.splitTextToSize(content, 180); // Wrap text to fit within page width
+
+    textLines.forEach(line => {
+        if (y + lineHeight > pageHeight - 10) { // Check if new page is needed
+            doc.addPage();
+            y = marginTop;
+        }
+        doc.text(line, marginLeft, y);
+        y += lineHeight;
+    });
+
+    doc.save(`${career}_Roadmap.pdf`);
+}
+
+
+    // Initialize Mermaid
+    document.addEventListener("DOMContentLoaded", () => {
+        if (window.mermaid) {
+            mermaid.initialize({ startOnLoad: false });
+        } else {
+            console.error("Mermaid.js failed to load.");
+        }
+    });
+
+    async function generateFlowchart() {
+    try {
+        const response = await fetch("/career_data.json");
+
+        if (!response.ok) {
+            throw new Error("Failed to load JSON");
+        }
+
+        const data = await response.json();
+        console.log("Career Data:", data); // Debugging
+
+        if (!Array.isArray(data)) {
+            throw new Error("Invalid JSON format: Expected an array");
+        }
+
+        const searchQuery = document.getElementById("careerInput").value.trim().toLowerCase();
+        const filteredData = data.filter(row =>
+            (row["Career"] || row["career"] || "").toLowerCase().includes(searchQuery)
+        );
+
+        if (filteredData.length === 0) {
+            document.getElementById("flowchartContainer").innerHTML = "<p>No results found.</p>";
+            return;
+        }
+
+        let mermaidSyntax = "graph TD;\nStart((Start));\nGoal((Goal));\n";
+
+        function sanitizeText(text) {
+            return text
+                .replace(/[^a-zA-Z0-9 _]/g, "") // Remove special characters except spaces & underscores
+                .replace(/\s+/g, "_"); // Replace spaces with underscores
+        }
+
+        filteredData.forEach((row) => {
+            let career = row["Career"] || row["career"];
+            let skills = row["Skills Needed"] || row["skills_needed"] || "";
+            let courses = row["Courses"] || row["courses"] || "";
+
+            if (!career) return;
+
+            career = sanitizeText(career);
+            let skillList = skills.split(",").map(s => sanitizeText(s.trim()));
+            let courseList = courses.split(",").map(c => sanitizeText(c.trim()));
+
+            // Career Node
+            mermaidSyntax += `Start -->|${career}| ${career}_Courses;\n`;
+
+            // Courses
+            courseList.forEach(course => {
+                if (course) mermaidSyntax += `${career}_Courses -->|${course}| ${career}_Skills;\n`;
+            });
+
+            // Skills
+            skillList.forEach(skill => {
+                if (skill) mermaidSyntax += `${career}_Skills -->|${skill}| Goal;\n`;
+            });
+        });
+
+        console.log("Generated Mermaid Syntax:\n", mermaidSyntax); // Debugging
+
+        // Ensure Mermaid.js is loaded before rendering
+        if (window.mermaid) {
+            document.getElementById("flowchartContainer").innerHTML = `<div class="mermaid">${mermaidSyntax}</div>`;
+            mermaid.initialize({ startOnLoad: true });
+            mermaid.init(undefined, document.querySelectorAll(".mermaid"));
+        } else {
+            console.error("Mermaid.js is not available.");
+            document.getElementById("flowchartContainer").innerHTML = `<p style="color: red;">Error loading flowchart.</p>`;
+        }
+
+    } catch (error) {
+        console.error("Error fetching career data:", error);
+        document.getElementById("flowchartContainer").innerHTML = `<p style="color: red;">Error loading flowchart.</p>`;
+    }
+}
+
+
+
+</script>    
+</body>
+</html>

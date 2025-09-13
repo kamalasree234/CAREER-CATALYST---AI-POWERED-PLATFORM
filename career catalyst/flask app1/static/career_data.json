@@ -1,0 +1,1231 @@
+
+   [
+    {
+      "Career": "Software Developer",
+      "Skills Needed": "Programming languages (Python, Java, C++), problem-solving, critical thinking, software design",
+      "Courses": "Introduction to Programming, Data Structures and Algorithms, Object-Oriented Programming",
+      "Experience": "0-5 years",
+      "Responsible Tasks": "Design, develop, and test software applications",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Data Scientist",
+      "Skills Needed": "Statistics, machine learning, data analysis, programming languages (Python, R)",
+      "Courses": "Statistics for Machine Learning, Machine Learning, Data Analysis with Python",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Collect, clean, analyze, and interpret data",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Data Analyst",
+      "Skills Needed": "Data analysis, data visualization, SQL, communication skills",
+      "Courses": "Data Analysis Fundamentals, SQL for Data Analysis, Data Visualization",
+      "Experience": "1-5 years",
+      "Responsible Tasks": "Collect, clean, analyze, and present data",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Machine Learning Engineer",
+      "Skills Needed": "Machine learning, statistics, programming languages (Python), deep learning",
+      "Courses": "Machine Learning Engineer Nanodegree, Deep Learning Specialization",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Design, develop, and deploy machine learning models",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Artificial Intelligence Specialist",
+      "Skills Needed": "Artificial intelligence, machine learning, deep learning, natural language processing",
+      "Courses": "Artificial Intelligence Specialization, Deep Learning Specialization, Natural Language Processing Specialization",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Research, develop, and implement AI solutions",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Cybersecurity Analyst",
+      "Skills Needed": "Cybersecurity, networking, security tools, Linux",
+      "Courses": "Cybersecurity Fundamentals, Network Security, Ethical Hacking",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Protect computer systems and networks from cyberattacks",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Cloud Architect",
+      "Skills Needed": "Cloud computing, AWS, Azure, GCP",
+      "Courses": "AWS Certified Solutions Architect, Microsoft Azure Architect, Google Cloud Architect",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Design, develop, and manage cloud infrastructure",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Network Administrator",
+      "Skills Needed": "Networking, network security, troubleshooting",
+      "Courses": "Network+, CCNA",
+      "Experience": "1-5 years",
+      "Responsible Tasks": "Install, configure, and maintain computer networks",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "IT Support Specialist",
+      "Skills Needed": "Troubleshooting, technical support, customer service",
+      "Courses": "A+ certification",
+      "Experience": "0-3 years",
+      "Responsible Tasks": "Provide technical support to users",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Web Developer",
+      "Skills Needed": "Web development, HTML, CSS, JavaScript",
+      "Courses": "Web Development Fundamentals, Front-End Web Development, Back-End Web Development",
+      "Experience": "1-5 years",
+      "Responsible Tasks": "Design, develop, and maintain websites",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Mobile App Developer",
+      "Skills Needed": "Mobile app development, Android, iOS, Swift, Kotlin",
+      "Courses": "Android App Development with Kotlin, iOS App Development with Swift",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design, develop, and maintain mobile applications",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "DevOps Engineer",
+      "Skills Needed": "DevOps, automation, scripting, cloud computing",
+      "Courses": "DevOps Fundamentals, Linux for DevOps, Cloud Automation",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Automate the process of software development and deployment",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Game Developer",
+      "Skills Needed": "Game development, programming languages (C++, C#), game engines (Unity, Unreal Engine)",
+      "Courses": "Game Development Fundamentals, Unity Game Development, Unreal Engine Game Development",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design, develop, and test video games",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Blockchain Developer",
+      "Skills Needed": "Blockchain technology, cryptography, smart contracts",
+      "Courses": "Blockchain Development Fundamentals, Ethereum Development, Hyperledger Fabric Development",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Design, develop, and deploy blockchain applications",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "UI/UX Designer",
+      "Skills Needed": "User interface design, user experience design, graphic design",
+      "Courses": "UI/UX Design Fundamentals, User Interface Design, User Experience Design",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design user interfaces and user experiences for software applications",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "IT Project Manager",
+      "Skills Needed": "Project management, communication, budgeting, risk management",
+      "Courses": "PMP Certification, Agile Project Management",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Plan, manage, and execute IT projects",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Robotics Engineer",
+      "Skills Needed": "Robotics, мехатроника (mechatronics), control systems",
+      "Courses": "Robotics Fundamentals, Mechatronics Engineering, Control Systems Engineering",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Design, develop, and maintain robots",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Database Administrator",
+      "Skills Needed": "Database management, SQL, database administration tools",
+      "Courses": "Database Fundamentals, SQL Server Administration, Oracle Database Administration",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design, develop, and maintain databases",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Full-Stack Developer",
+      "Skills Needed": "Full-stack development, front-end development, back-end development",
+      "Courses": "Full-Stack Web Development Bootcamp, Front-End Web Development, Back-End Web Development",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Design, develop, and maintain all aspects of a web application",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "System Analyst",
+      "Skills Needed": "Systems analysis, business process analysis, requirements gathering",
+      "Courses": "Systems Analysis and Design, Business Process Modeling, Requirements Engineering",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Analyze business needs and design solutions",
+      "Industry": "Technology and IT"
+    },
+    {
+      "Career": "Doctor",
+      "Skills Needed": "Medicine, surgery, diagnosis, treatment",
+      "Courses": "Medical Degree (MD), Residency Training",
+      "Experience": "10+ years",
+      "Responsible Tasks": "Diagnose and treat diseases",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Nurse",
+      "Skills Needed": "Nursing, patient care, medication administration",
+      "Courses": "Registered Nurse (RN) License",
+      "Experience": "1-10+ years",
+      "Responsible Tasks": "Provide care to patients",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Pharmacist",
+      "Skills Needed": "Pharmacy, medication dispensing, drug interactions",
+      "Courses": "Doctor of Pharmacy (PharmD) Degree",
+      "Experience": "5-10+ years",
+      "Responsible Tasks": "Dispense medications and provide medication counseling",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Dentist",
+      "Skills Needed": "Dentistry, oral health, tooth extraction, fillings",
+      "Courses": "Doctor of Dental Surgery (DDS) Degree",
+      "Experience": "5-10+ years",
+      "Responsible Tasks": "Diagnose and treat oral health problems",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Surgeon",
+      "Skills Needed": "Surgery, anesthesia, operating room procedures",
+      "Courses": "Doctor of Medicine (MD) Degree, Surgical Residency Training",
+      "Experience": "10+ years",
+      "Responsible Tasks": "Perform surgical procedures",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Physical Therapist",
+      "Skills Needed": "Physical therapy, rehabilitation, exercise therapy",
+      "Courses": "Doctor of Physical Therapy (DPT) Degree",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Help patients regain movement and function",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Occupational Therapist",
+      "Skills Needed": "Occupational therapy, rehabilitation, activities of daily living",
+      "Courses": "Master of Occupational Therapy (MOT) Degree",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Help patients with disabilities perform everyday activities",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Radiologist",
+      "Skills Needed": "Radiology, medical imaging, diagnosis",
+      "Courses": "Doctor of Medicine (MD) Degree, Radiology Residency Training",
+      "Experience": "10+ years",
+      "Responsible Tasks": "Interpret medical images to diagnose diseases",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Veterinarian",
+      "Skills Needed": "Veterinary medicine, animal care, surgery",
+      "Courses": "Doctor of Veterinary Medicine (DVM) Degree",
+      "Experience": "5-10+ years",
+      "Responsible Tasks": "Diagnose and treat animals",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Nutritionist",
+      "Skills Needed": "Nutrition, diet, weight management",
+      "Courses": "Master of Science in Nutrition (MSN) Degree",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Create personalized nutrition plans",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Psychologist",
+      "Skills Needed": "Psychology, mental health, therapy",
+      "Courses": "Doctor of Psychology (PsyD) or Doctor of Philosophy (PhD) in Psychology",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Diagnose and treat mental health conditions",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Medical Lab Technician",
+      "Skills Needed": "Medical laboratory science, blood testing, tissue analysis",
+      "Courses": "Associate's Degree in Medical Laboratory Science",
+      "Experience": "1-5 years",
+      "Responsible Tasks": "Perform laboratory tests to diagnose diseases",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Paramedic",
+      "Skills Needed": "Emergency medical services, trauma care, CPR",
+      "Courses": "Paramedic Certification",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Provide emergency medical care",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Epidemiologist",
+      "Skills Needed": "Epidemiology, public health, disease outbreaks",
+      "Courses": "Master of Public Health (MPH) Degree in Epidemiology",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Investigate and track the spread of diseases",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Optometrist",
+      "Skills Needed": "Optometry, eye care, vision correction",
+      "Courses": "Doctor of Optometry (OD) Degree",
+      "Experience": "5-10+ years",
+      "Responsible Tasks": "Perform eye exams and prescribe corrective lenses",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Medical Coder",
+      "Skills Needed": "Medical coding, healthcare billing",
+      "Courses": "Medical Coding Certification",
+      "Experience": "1-3 years",
+      "Responsible Tasks": "Assign codes to medical procedures and diagnoses for billing purposes",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Healthcare Administrator",
+      "Skills Needed": "Healthcare administration, healthcare management, healthcare policy",
+      "Courses": "Master of Health Administration (MHA) Degree",
+      "Experience": "5-10+ years",
+      "Responsible Tasks": "Manage healthcare facilities and organizations",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Biomedical Engineer",
+      "Skills Needed": "Biomedical engineering, medical devices, prosthetics",
+      "Courses": "Bachelor's Degree in Biomedical Engineering",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design, develop, and test medical devices",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Genetic Counselor",
+      "Skills Needed": "Genetic counseling, genetic disorders, risk assessment",
+      "Courses": "Master of Science in Genetic Counseling Degree",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Provide information and counseling about genetic disorders",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Anesthesiologist",
+      "Skills Needed": "Anesthesiology, pain management, surgery",
+      "Courses": "Doctor of Medicine (MD) Degree, Anesthesiology Residency Training",
+      "Experience": "10+ years",
+      "Responsible Tasks": "Administer anesthesia during surgical procedures",
+      "Industry": "Healthcare"
+    },
+    {
+      "Career": "Civil Engineer",
+      "Skills Needed": "Civil engineering, construction, infrastructure",
+      "Courses": "Bachelor's Degree in Civil Engineering",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design, build, and maintain infrastructure projects",
+      "Industry": "Engineering"
+    },
+    {
+      "Career": "Mechanical Engineer",
+      "Skills Needed": "Mechanical engineering, thermodynamics, fluid mechanics",
+      "Courses": "Bachelor's Degree in Mechanical Engineering",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design, develop, and test mechanical systems",
+      "Industry": "Engineering"
+    },
+    {
+      "Career": "Electrical Engineer",
+      "Skills Needed": "Electrical engineering, electronics, power systems",
+      "Courses": "Bachelor's Degree in Electrical Engineering",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design, develop, and test electrical systems",
+      "Industry": "Engineering"
+    },
+    {
+      "Career": "Chemical Engineer",
+      "Skills Needed": "Chemical engineering, chemistry, process engineering",
+      "Courses": "Bachelor's Degree in Chemical Engineering",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design and develop chemical processes",
+      "Industry": "Engineering"
+    },
+    {
+      "Career": "Aeronautical Engineer",
+      "Skills Needed": "Aeronautical engineering, aerospace engineering, aerodynamics",
+      "Courses": "Bachelor's Degree in Aeronautical Engineering",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Design, develop, and test aircraft and spacecraft",
+      "Industry": "Engineering"
+    },
+    {
+      "Career": "Industrial Engineer",
+      "Skills Needed": "Industrial engineering, operations research, process improvement",
+      "Courses": "Bachelor's Degree in Industrial Engineering",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Improve the efficiency and productivity of organizations",
+      "Industry": "Engineering"
+    },
+    {
+      "Career": "Environmental Engineer",
+      "Skills Needed": "Environmental engineering, environmental science, pollution control",
+      "Courses": "Bachelor's Degree in Environmental Engineering",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Protect the environment and human health",
+      "Industry": "Engineering"
+    },
+    {
+      "Career": "Petroleum Engineer",
+      "Skills Needed": "Petroleum engineering, reservoir engineering, drilling",
+      "Courses": "Bachelor's Degree in Petroleum Engineering",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Explore for and produce oil and gas",
+      "Industry": "Engineering"
+    },
+    {
+      "Career": "Marine Engineer",
+      "Skills Needed": "Marine"
+    },
+    {
+      "Career": "Career",
+      "Skills Needed": "Skills Needed",
+      "Courses": "Courses",
+      "Experience": "Experience",
+      "Responsible Tasks": "Responsible Tasks",
+      "Industry": "Industry"
+    },
+    {
+      "Career": "Accountant",
+      "Skills Needed": "Accounting, finance, financial reporting, tax preparation",
+      "Courses": "Bachelor's degree in Accounting, Certified Public Accountant (CPA)",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Prepare financial statements, analyze financial data, prepare tax returns",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Financial Analyst",
+      "Skills Needed": "Financial analysis, financial modeling, investment analysis",
+      "Courses": "Bachelor's degree in Finance, Chartered Financial Analyst (CFA)",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Analyze financial data, create financial models, provide investment recommendations",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Investment Banker",
+      "Skills Needed": "Investment banking, financial modeling, mergers and acquisitions",
+      "Courses": "Bachelor's degree in Finance, Master of Business Administration (MBA)",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Advise clients on mergers and acquisitions, raise capital for companies",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Auditor",
+      "Skills Needed": "Auditing, accounting, financial reporting",
+      "Courses": "Bachelor's degree in Accounting, Certified Internal Auditor (CIA)",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Examine financial records, assess financial risk, ensure compliance with regulations",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Business Consultant",
+      "Skills Needed": "Business strategy, management consulting, problem-solving",
+      "Courses": "Bachelor's degree in Business Administration, Master of Business Administration (MBA)",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Advise businesses on strategy, operations, and organizational structure",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Tax Consultant",
+      "Skills Needed": "Tax law, tax preparation, tax planning",
+      "Courses": "Bachelor's degree in Accounting, Certified Public Accountant (CPA)",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Advise clients on tax matters, prepare tax returns, develop tax strategies",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Actuary",
+      "Skills Needed": "Actuarial science, mathematics, statistics",
+      "Courses": "Bachelor's degree in Actuarial Science, Associate of the Society of Actuaries (ASA)",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Assess financial risk, develop insurance products, manage pension plans",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Risk Manager",
+      "Skills Needed": "Risk management, financial risk, operational risk",
+      "Courses": "Bachelor's degree in Finance, Certified Risk Manager (CRM)",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Identify and assess risks, develop risk mitigation strategies",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Marketing Manager",
+      "Skills Needed": "Marketing, advertising, market research",
+      "Courses": "Bachelor's degree in Marketing, Master of Business Administration (MBA)",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Develop marketing strategies, manage marketing campaigns, analyze market trends",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "HR Manager",
+      "Skills Needed": "Human resources, talent management, employee relations",
+      "Courses": "Bachelor's degree in Human Resources, Society for Human Resource Management (SHRM) certification",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Recruit and hire employees, manage employee benefits, develop HR policies",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Operations Manager",
+      "Skills Needed": "Operations management, supply chain management, process improvement",
+      "Courses": "Bachelor's degree in Operations Management, Master of Business Administration (MBA)",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Manage day-to-day operations, improve efficiency, optimize processes",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Supply Chain Manager",
+      "Skills Needed": "Supply chain management, logistics, procurement",
+      "Courses": "Bachelor's degree in Supply Chain Management, Certified Supply Chain Professional (CSCP)",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Manage the flow of goods and services, negotiate with suppliers, optimize inventory levels",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Sales Manager",
+      "Skills Needed": "Sales, sales management, customer relationship management",
+      "Courses": "Bachelor's degree in Business Administration, Master of Business Administration (MBA)",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Lead and motivate sales teams, develop sales strategies, achieve sales targets",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Entrepreneur",
+      "Skills Needed": "Entrepreneurship, business planning, financial management",
+      "Courses": "Bachelor's degree in Business Administration, Master of Business Administration (MBA)",
+      "Experience": "Varies",
+      "Responsible Tasks": "Start and run a business, identify and exploit business opportunities",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Product Manager",
+      "Skills Needed": "Product management, product development, market research",
+      "Courses": "Bachelor's degree in Business Administration, Master of Business Administration (MBA)",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Develop product strategies, manage product development, analyze customer needs",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Corporate Trainer",
+      "Skills Needed": "Training, development, instructional design",
+      "Courses": "Bachelor's degree in Education, Certified Professional in Learning and Performance (CPLP)",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Design and deliver training programs, develop training materials",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Business Development Executive",
+      "Skills Needed": "Business development, sales, marketing",
+      "Courses": "Bachelor's degree in Business Administration, Master of Business Administration (MBA)",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Identify and develop new business opportunities, build relationships with clients",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Management Consultant",
+      "Skills Needed": "Management consulting, business strategy, problem-solving",
+      "Courses": "Bachelor's degree in Business Administration, Master of Business Administration (MBA)",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Advise businesses on strategy, operations, and organizational structure",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "E-commerce Specialist",
+      "Skills Needed": "E-commerce, digital marketing, online sales",
+      "Courses": "Bachelor's degree in Marketing, Master of Business Administration (MBA)",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Develop and implement e-commerce strategies, manage online sales channels",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Wealth Manager",
+      "Skills Needed": "Wealth management, financial planning, investment management",
+      "Courses": "Bachelor's degree in Finance, Certified Financial Planner (CFP)",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Manage client investments, provide financial advice, develop financial plans",
+      "Industry": "Business and Finance"
+    },
+    {
+      "Career": "Career",
+      "Skills Needed": "Skills Needed",
+      "Courses": "Courses",
+      "Experience": "Experience",
+      "Responsible Tasks": "Responsible Tasks",
+      "Industry": "Industry"
+    },
+    {
+      "Career": "Pilot",
+      "Skills Needed": "Aviation, flight mechanics, navigation, communication",
+      "Courses": "Flight training, Pilot's License",
+      "Experience": "Varies",
+      "Responsible Tasks": "Fly aircraft, ensure passenger safety, navigate flight paths",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Cabin Crew",
+      "Skills Needed": "Customer service, communication, safety procedures, first aid",
+      "Courses": "Cabin Crew Training",
+      "Experience": "0-5 years",
+      "Responsible Tasks": "Assist passengers, ensure passenger safety, provide onboard services",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Chef",
+      "Skills Needed": "Culinary skills, food preparation, menu planning, kitchen management",
+      "Courses": "Culinary Arts School, Chef Certification",
+      "Experience": "0-10+ years",
+      "Responsible Tasks": "Cook and prepare food, create menus, manage kitchen staff",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Baker",
+      "Skills Needed": "Baking techniques, pastry making, bread baking, food safety",
+      "Courses": "Baking Courses, Pastry Arts School",
+      "Experience": "0-5 years",
+      "Responsible Tasks": "Bake bread, pastries, and other baked goods",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Travel Agent",
+      "Skills Needed": "Travel planning, customer service, geography, ticketing systems",
+      "Courses": "Travel Agent Certification",
+      "Experience": "1-5 years",
+      "Responsible Tasks": "Assist clients with travel arrangements, book flights and accommodations, provide travel advice",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Fitness Trainer",
+      "Skills Needed": "Exercise science, nutrition, personal training, fitness instruction",
+      "Courses": "Personal Trainer Certification",
+      "Experience": "0-5 years",
+      "Responsible Tasks": "Develop and implement fitness programs, train clients, provide fitness instruction",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Yoga Instructor",
+      "Skills Needed": "Yoga techniques, anatomy, physiology, mindfulness",
+      "Courses": "Yoga Teacher Training Certification",
+      "Experience": "0-5 years",
+      "Responsible Tasks": "Teach yoga classes, guide students through yoga poses, promote wellness",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Real Estate Agent",
+      "Skills Needed": "Real estate law, sales, negotiation, customer service",
+      "Courses": "Real Estate License",
+      "Experience": "0-5 years",
+      "Responsible Tasks": "List and sell properties, represent buyers and sellers, conduct property showings",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Zoo Keeper",
+      "Skills Needed": "Animal care, animal behavior, zoology, veterinary science",
+      "Courses": "Zoology Degree, Animal Care Certification",
+      "Experience": "1-5 years",
+      "Responsible Tasks": "Care for zoo animals, maintain animal enclosures, educate visitors",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Cryptographer",
+      "Skills Needed": "Cryptography, mathematics, computer science, data security",
+      "Courses": "Cryptography Courses, Cybersecurity Certifications",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Develop and implement encryption algorithms, protect sensitive data, break codes",
+      "Industry": "Other Professions"
+    },
+    {
+      "Career": "Teacher",
+      "Skills Needed": "Pedagogy, classroom management, subject matter expertise, communication",
+      "Courses": "Bachelor's degree in Education, Teaching Certification",
+      "Experience": "0-10+ years",
+      "Responsible Tasks": "Teach students, create lesson plans, assess student learning",
+      "Industry": "Education"
+    },
+    {
+      "Career": "Professor",
+      "Skills Needed": "Subject matter expertise, research, teaching, mentoring",
+      "Courses": "Master's degree or PhD in relevant field",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Teach university courses, conduct research, mentor students",
+      "Industry": "Education"
+    },
+    {
+      "Career": "Curriculum Developer",
+      "Skills Needed": "Curriculum design, instructional design, educational technology, learning theory",
+      "Courses": "Master's degree in Education, Curriculum and Instruction",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Develop and implement educational curricula, create learning materials",
+      "Industry": "Education"
+    },
+    {
+      "Career": "School Counselor",
+      "Skills Needed": "Counseling, psychology, child development, crisis intervention",
+      "Courses": "Master's degree in School Counseling",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Provide guidance and support to students, conduct counseling sessions, address student mental health",
+      "Industry": "Education"
+    },
+    {
+      "Career": "Special Education Teacher",
+      "Skills Needed": "Special education, inclusive education, individualized education plans (IEPs)",
+      "Courses": "Bachelor's degree in Special Education, Special Education Certification",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Teach students with disabilities, develop and implement IEPs, collaborate with other professionals",
+      "Industry": "Education"
+    },
+    {
+      "Career": "Educational Technologist",
+      "Skills Needed": "Educational technology, instructional design, technology integration, online learning",
+      "Courses": "Master's degree in Education Technology",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Integrate technology into education, develop online learning resources, support teachers with technology",
+      "Industry": "Education"
+    },
+    {
+      "Career": "Librarian",
+      "Skills Needed": "Library science, information literacy, research skills, collection development",
+      "Courses": "Master's degree in Library Science (MLS)",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Manage library collections, provide library services to users, conduct library research",
+      "Industry": "Education"
+    },
+    {
+      "Career": "Language Trainer",
+      "Skills Needed": "Second language acquisition, linguistics, teaching methodology, cultural awareness",
+      "Courses": "Bachelor's degree in Foreign Language, Teaching Certification",
+      "Experience": "1-5 years",
+      "Responsible Tasks": "Teach foreign languages, develop language curricula, create engaging learning experiences",
+      "Industry": "Education"
+    },
+    {
+      "Career": "Academic Researcher",
+      "Skills Needed": "Research methods, subject matter expertise, scholarly writing, data analysis",
+      "Courses": "PhD in relevant field",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Conduct research in academic field, publish research papers, present research findings",
+      "Industry": "Education"
+    },
+    {
+      "Career": "Career Counselor",
+      "Skills Needed": "Career counseling, career development, assessment, job search strategies",
+      "Courses": "Master's degree in Counseling, Career Counseling Certification",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Provide career guidance and counseling, administer career assessments, assist with job search",
+      "Industry": "Education"
+    },
+    {
+      "Career": "Electrician",
+      "Skills Needed": "Electrical wiring, electrical codes, troubleshooting, safety",
+      "Courses": "Electrician Apprenticeship, Journeyman Electrician License",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Install, maintain, and repair electrical systems",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Plumber",
+      "Skills Needed": "Plumbing systems, pipefitting, drainage, gas lines",
+      "Courses": "Plumbing Apprenticeship, Journeyman Plumber License",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Install, maintain, and repair plumbing systems",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Carpenter",
+      "Skills Needed": "Carpentry skills, woodworking, construction, blueprint reading",
+      "Courses": "Carpentry Apprenticeship, Journeyman Carpenter License",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Build and repair wooden structures, frame buildings, install cabinets",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Mechanic",
+      "Skills Needed": "Automotive repair, diagnostics, engine repair, transmission repair",
+      "Courses": "Automotive Service Technician Certification",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Repair and maintain vehicles, diagnose mechanical problems",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Welder",
+      "Skills Needed": "Welding techniques, welding safety, blueprint reading, metal fabrication",
+      "Courses": "Welding Certification",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Weld metals together, fabricate metal structures, repair metal components",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Machinist",
+      "Skills Needed": "Machining techniques, operating machine tools, blueprint reading, precision measurement",
+      "Courses": "Machinist Apprenticeship, CNC Machining Certification",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Operate machine tools to create metal parts, fabricate precision components",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "HVAC Technician",
+      "Skills Needed": "HVAC systems, refrigeration, heating, air conditioning",
+      "Courses": "HVAC Technician Certification",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Install, maintain, and repair heating, ventilation, and air conditioning systems",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Construction Worker",
+      "Skills Needed": "Construction techniques, safety procedures, operating heavy equipment",
+      "Courses": "Construction Safety Training, OSHA Certification",
+      "Experience": "0-5 years",
+      "Responsible Tasks": "Perform various tasks on construction sites, such as framing, concrete work, and demolition",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Tailor",
+      "Skills Needed": "Sewing, pattern making, garment construction, tailoring techniques",
+      "Courses": "Tailoring Apprenticeship, Fashion Design Courses",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Sew and alter clothing, create custom garments, repair clothing",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Hair Stylist",
+      "Skills Needed": "Hair cutting, styling, coloring, customer service",
+      "Courses": "Cosmetology License",
+      "Experience": "0-2 years",
+      "Responsible Tasks": "Cut, style, and color hair, provide hair care services to clients",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Beautician",
+      "Skills Needed": "Cosmetology, skin care, makeup, nail care",
+      "Courses": "Cosmetology License",
+      "Experience": "0-2 years",
+      "Responsible Tasks": "Provide beauty treatments, such as facials, manicures, pedicures, and makeup application",
+      "Industry": "Trades and Skilled Work"
+    },
+    {
+      "Career": "Career",
+      "Skills Needed": "Skills Needed",
+      "Courses": "Courses",
+      "Experience": "Experience",
+      "Responsible Tasks": "Responsible Tasks",
+      "Industry": "Industry"
+    },
+    {
+      "Career": "Lawyer",
+      "Skills Needed": "Law, legal research, legal writing, advocacy",
+      "Courses": "Juris Doctor (JD) degree, Bar Exam",
+      "Experience": "0-10+ years",
+      "Responsible Tasks": "Represent clients in court, provide legal advice, draft legal documents",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Judge",
+      "Skills Needed": "Law, jurisprudence, legal ethics, judicial decision-making",
+      "Courses": "Juris Doctor (JD) degree, Judicial Experience",
+      "Experience": "10+ years",
+      "Responsible Tasks": "Preside over court proceedings, interpret laws, make legal rulings",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Paralegal",
+      "Skills Needed": "Legal research, legal drafting, document management, client communication",
+      "Courses": "Paralegal Certificate, Associate's degree in Paralegal Studies",
+      "Experience": "1-5 years",
+      "Responsible Tasks": "Assist lawyers with legal research, draft legal documents, manage case files",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Legal Advisor",
+      "Skills Needed": "Legal expertise, legal research, legal counsel, risk management",
+      "Courses": "Juris Doctor (JD) degree, Legal Experience",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Provide legal advice to organizations, manage legal risks, ensure compliance with laws",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Public Prosecutor",
+      "Skills Needed": "Law, criminal law, trial procedure, litigation",
+      "Courses": "Juris Doctor (JD) degree",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Represent the government in criminal cases, prosecute defendants, argue cases in court",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Diplomat",
+      "Skills Needed": "International relations, diplomacy, foreign policy, cultural awareness",
+      "Courses": "Master's degree in International Relations, Foreign Service Officer Exam",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Represent the interests of their country abroad, negotiate treaties, promote international cooperation",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Politician",
+      "Skills Needed": "Political science, public policy, communication, leadership",
+      "Courses": "Bachelor's degree in Political Science, Public Administration, or related field",
+      "Experience": "Varies",
+      "Responsible Tasks": "Represent constituents, develop and implement public policy, campaign for office",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Police Officer",
+      "Skills Needed": "Law enforcement, criminal justice, community policing, self-defense",
+      "Courses": "Police Academy Training, Law Enforcement Certification",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Enforce laws, investigate crimes, protect public safety, serve the community",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Firefighter",
+      "Skills Needed": "Firefighting techniques, emergency medical services, rescue operations, hazard mitigation",
+      "Courses": "Firefighter Training Academy, Firefighter Certification",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Extinguish fires, conduct rescue operations, provide emergency medical assistance, prevent fires",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Civil Servant",
+      "Skills Needed": "Public administration, public policy, government regulations, customer service",
+      "Courses": "Bachelor's degree in Public Administration, Political Science, or related field",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Work for government agencies, implement government programs, provide public services",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Military Officer",
+      "Skills Needed": "Military science, leadership, strategic planning, tactical operations",
+      "Courses": "Military Academy, Officer Candidate School",
+      "Experience": "5-20+ years",
+      "Responsible Tasks": "Lead military personnel, plan and execute military operations, ensure national security",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Social Worker",
+      "Skills Needed": "Social work, human services, counseling, community development",
+      "Courses": "Master's degree in Social Work (MSW)",
+      "Experience": "2-7 years",
+      "Responsible Tasks": "Provide social services to individuals, families, and communities, address social issues, promote social justice",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Policy Analyst",
+      "Skills Needed": "Public policy, research, data analysis, policy evaluation",
+      "Courses": "Master's degree in Public Policy, Public Administration, or related field",
+      "Experience": "3-8 years",
+      "Responsible Tasks": "Analyze public policy issues, conduct policy research, develop policy recommendations",
+      "Industry": "Law and Public Service"
+    },
+    {
+      "Career": "Career",
+      "Skills Needed": "Skills Needed",
+      "Courses": "Courses",
+      "Experience": "Experience",
+      "Responsible Tasks": "Responsible Tasks",
+      "Industry": "Industry"
+    },
+    {
+      "Career": "Research Scientist",
+      "Skills Needed": "Scientific method, research design, data analysis, critical thinking",
+      "Courses": "Bachelor's degree in Science, Master's degree in Science or PhD",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Conduct scientific research, analyze data, publish research findings",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Astronomer",
+      "Skills Needed": "Astronomy, physics, astrophysics, data analysis",
+      "Courses": "Bachelor's degree in Astronomy, Astrophysics, or Physics",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Study celestial objects, conduct astronomical observations, analyze astronomical data",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Physicist",
+      "Skills Needed": "Physics, mathematics, scientific method, experimental design",
+      "Courses": "Bachelor's degree in Physics, Master's degree in Physics or PhD",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Conduct research in physics, develop and test theories, apply physics principles to solve problems",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Chemist",
+      "Skills Needed": "Chemistry, laboratory techniques, analytical chemistry, organic chemistry",
+      "Courses": "Bachelor's degree in Chemistry, Master's degree in Chemistry or PhD",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Conduct chemical experiments, analyze chemical compounds, develop new materials",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Biologist",
+      "Skills Needed": "Biology, biochemistry, genetics, ecology",
+      "Courses": "Bachelor's degree in Biology, Master's degree in Biology or PhD",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Study living organisms, conduct biological research, analyze biological data",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Microbiologist",
+      "Skills Needed": "Microbiology, microbiology techniques, immunology, virology",
+      "Courses": "Bachelor's degree in Microbiology, Master's degree in Microbiology or PhD",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Study microorganisms, conduct microbiological research, develop vaccines and antibiotics",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Biotechnologist",
+      "Skills Needed": "Biotechnology, molecular biology, genetic engineering, biochemistry",
+      "Courses": "Bachelor's degree in Biotechnology, Master's degree in Biotechnology or PhD",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Develop and apply biotechnological techniques, conduct research in biotechnology, develop new drugs and therapies",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Ecologist",
+      "Skills Needed": "Ecology, environmental science, environmental monitoring, data analysis",
+      "Courses": "Bachelor's degree in Ecology, Environmental Science, or Biology",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Study ecosystems, conduct ecological research, assess environmental impacts",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Geologist",
+      "Skills Needed": "Geology, earth science, mineralogy, geophysics",
+      "Courses": "Bachelor's degree in Geology, Geophysics, or Earth Science",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Study the Earth's structure and composition, conduct geological surveys, explore for natural resources",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Archaeologist",
+      "Skills Needed": "Archaeology, anthropology, history, excavation techniques",
+      "Courses": "Bachelor's degree in Archaeology, Anthropology, or History",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Excavate and analyze archaeological sites, study human history and culture",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Marine Biologist",
+      "Skills Needed": "Marine biology, oceanography, marine ecology, marine conservation",
+      "Courses": "Bachelor's degree in Marine Biology, Oceanography, or Biology",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Study marine life, conduct marine research, conserve marine ecosystems",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Climate Scientist",
+      "Skills Needed": "Climate science, meteorology, atmospheric science, data analysis",
+      "Courses": "Bachelor's degree in Climate Science, Atmospheric Science, or Meteorology",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Study climate change, analyze climate data, develop climate models",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Mathematician",
+      "Skills Needed": "Mathematics, mathematical modeling, statistics, computer science",
+      "Courses": "Bachelor's degree in Mathematics, Master's degree in Mathematics or PhD",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Conduct mathematical research, develop mathematical theories, apply mathematics to solve problems",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Statistician",
+      "Skills Needed": "Statistics, data analysis, probability, statistical software",
+      "Courses": "Bachelor's degree in Statistics, Mathematics, or Computer Science",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Analyze data, develop statistical models, make predictions",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Astrophysicist",
+      "Skills Needed": "Astrophysics, astronomy, physics, cosmology",
+      "Courses": "Bachelor's degree in Astrophysics, Astronomy, or Physics",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Study the physics of the universe, conduct astrophysical research, analyze astronomical data",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Food Scientist",
+      "Skills Needed": "Food science, chemistry, microbiology, food safety",
+      "Courses": "Bachelor's degree in Food Science, Nutrition, or Chemistry",
+      "Experience": "2-10+ years",
+      "Responsible Tasks": "Research and develop new food products, ensure food safety, improve food quality",
+      "Industry": "Science and Research"
+    },
+    {
+      "Career": "Career",
+      "Skills Needed": "Skills Needed",
+      "Courses": "Courses",
+      "Experience": "Experience",
+      "Responsible Tasks": "Responsible Tasks",
+      "Industry": "Industry"
+    },
+    {
+      "Career": "Graphic Designer",
+      "Skills Needed": "Graphic design software (Adobe Photoshop, Illustrator), visual communication, creativity",
+      "Courses": "Graphic Design Fundamentals, Adobe Creative Suite",
+      "Experience": "1-3 years",
+      "Responsible Tasks": "Create visual concepts, design layouts, produce graphics for print and digital media",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Photographer",
+      "Skills Needed": "Photography techniques, image editing, lighting, composition",
+      "Courses": "Photography Fundamentals, Digital Photography, Photo Editing",
+      "Experience": "0-2 years",
+      "Responsible Tasks": "Capture images, edit photos, create photo essays",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Film Director",
+      "Skills Needed": "Storytelling, filmmaking techniques, directing actors, managing production",
+      "Courses": "Filmmaking 101, Directing Actors, Film Production",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Direct films, oversee production, guide actors",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Actor/Actress",
+      "Skills Needed": "Acting, stage presence, improvisation, memorization",
+      "Courses": "Acting Classes, Improv Classes, Screenwriting",
+      "Experience": "Varies",
+      "Responsible Tasks": "Perform in plays, films, and television shows",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Musician",
+      "Skills Needed": "Musical instrument proficiency, music theory, composition",
+      "Courses": "Music Theory, Instrumental Lessons, Music Composition",
+      "Experience": "Varies",
+      "Responsible Tasks": "Perform music, compose music, record music",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Singer",
+      "Skills Needed": "Vocal technique, stage presence, musicality",
+      "Courses": "Vocal Lessons, Music Theory, Performance",
+      "Experience": "Varies",
+      "Responsible Tasks": "Sing, perform live, record music",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Scriptwriter",
+      "Skills Needed": "Storytelling, screenwriting techniques, character development, dialogue writing",
+      "Courses": "Screenwriting 101, Screenwriting for Film, Screenwriting for Television",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Write scripts for films, television shows, and other media",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Animator",
+      "Skills Needed": "Animation software (Adobe Animate, Toon Boom Harmony), drawing skills, storytelling",
+      "Courses": "Animation Fundamentals, 2D Animation, 3D Animation",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Create animated characters and scenes, develop storyboards",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Video Editor",
+      "Skills Needed": "Video editing software (Adobe Premiere Pro, Final Cut Pro), storytelling, audio editing",
+      "Courses": "Video Editing Fundamentals, Adobe Premiere Pro, Film Editing",
+      "Experience": "1-3 years",
+      "Responsible Tasks": "Edit video footage, create video projects, mix audio",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Content Writer",
+      "Skills Needed": "Writing, storytelling, SEO, grammar and punctuation",
+      "Courses": "Creative Writing, Technical Writing, SEO Writing",
+      "Experience": "1-3 years",
+      "Responsible Tasks": "Write articles, blog posts, website copy, and other content",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Digital Marketer",
+      "Skills Needed": "Digital marketing, social media marketing, SEO, SEM",
+      "Courses": "Digital Marketing Fundamentals, Social Media Marketing, SEO",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Plan and execute digital marketing campaigns, manage social media accounts, analyze marketing data",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Social Media Manager",
+      "Skills Needed": "Social media platforms, content creation, community management, social media analytics",
+      "Courses": "Social Media Marketing, Social Media Management, Content Marketing",
+      "Experience": "1-3 years",
+      "Responsible Tasks": "Manage social media accounts, create social media content, engage with followers",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Interior Designer",
+      "Skills Needed": "Design principles, space planning, color theory, furniture selection",
+      "Courses": "Interior Design Fundamentals, Space Planning, Color Theory",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Design interior spaces, select furniture and decor, create floor plans",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Fashion Designer",
+      "Skills Needed": "Fashion design, pattern making, sewing, sketching",
+      "Courses": "Fashion Design Fundamentals, Pattern Making, Fashion Illustration",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Design clothing, create fashion collections, develop fashion concepts",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Journalist",
+      "Skills Needed": "Writing, research, interviewing, storytelling",
+      "Courses": "Journalism 101, News Writing, Investigative Journalism",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Write news articles, conduct interviews, research stories",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Editor",
+      "Skills Needed": "Editing, proofreading, grammar, style",
+      "Courses": "Copyediting, Proofreading, Grammar and Punctuation",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Edit written materials, ensure accuracy and clarity",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Public Relations Specialist",
+      "Skills Needed": "Public relations, media relations, crisis communication, writing",
+      "Courses": "Public Relations Fundamentals, Media Relations, Crisis Communication",
+      "Experience": "3-5 years",
+      "Responsible Tasks": "Manage public relations campaigns, build relationships with media, respond to crises",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Art Director",
+      "Skills Needed": "Visual communication, creative direction, design, typography",
+      "Courses": "Art Direction, Graphic Design, Typography",
+      "Experience": "5-10 years",
+      "Responsible Tasks": "Oversee the visual aspects of a project, guide designers, create visual concepts",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Copywriter",
+      "Skills Needed": "Writing, creativity, advertising, marketing",
+      "Courses": "Copywriting, Creative Writing, Advertising",
+      "Experience": "1-3 years",
+      "Responsible Tasks": "Write advertising copy, create slogans, develop marketing materials",
+      "Industry": "Arts, Media, and Entertainment"
+    },
+    {
+      "Career": "Event Manager",
+      "Skills Needed": "Event planning, project management, communication, budgeting",
+      "Courses": "Event Planning Fundamentals, Project Management, Event Logistics",
+      "Experience": "2-5 years",
+      "Responsible Tasks": "Plan and execute events, manage budgets, coordinate vendors, oversee logistics",
+      "Industry": "Arts, Media, and Entertainment"
+    }
+  ]

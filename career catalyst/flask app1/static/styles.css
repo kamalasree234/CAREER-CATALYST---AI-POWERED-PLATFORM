@@ -1,0 +1,160 @@
+body {
+    background-color: #100425;
+    color: #fff;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    color: #ff00ff;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00ffff, #ff00ff);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+.roadmap-section {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4); /* Stronger shadow */
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+
+
+
+.roadmap-section h2 {
+    color: #00ffff;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.roadmap-section p {
+    font-size: 30px;
+    line-height: 1.8;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 40px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Different colors for each section */
+/* Different colors and box shadow for each section */
+
+/* Box shadow for each category */
+.qualifications {    color: #ff00ff; } 
+.skills {    color: #00ffff;   }
+.courses {     color: #ffcc00;}
+.youtube { color: #ff6666; }
+.jobs {  color: #9900ff;}
+.trends {   color: deeppink;}
+.motivation {   color: #ff6600; }
+.Inspiringmessage {  color: lavender;}
+
+
+/* Animation for better visual appeal */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.roadmap-section {
+    animation: fadeIn 0.8s ease-in-out;
+}
+.loading-container {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff00ff, #00ffff); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Make GIF bigger and centered */
+.loading-container img {
+    width: 120px; /* Adjust size */
+    height: 120px;
+    display: block;
+    margin: 10px auto; /* Center horizontally */
+}
+
+/* Change node background color */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon {
+    fill: white !important; /* Dark blue */
+    stroke: #ff00ff !important; /* Pink border */
+}
+
+/* Change edge (line) colors */
+.mermaid .edgePath path {
+    stroke: cyan !important;  /* Change this to your desired color */
+    stroke-width: 2.5px !important; /* Make the arrow bolder */
+}
+/* Change marker (arrowhead) color */
+.mermaid .marker path {
+    fill: cyan !important;  /* Arrowhead color */
+    stroke: cyan !important; /* Ensure arrowhead matches */
+}
+/* Change text color */
+.mermaid .node text {
+    fill: white !important; /* White text */
+}
+
+

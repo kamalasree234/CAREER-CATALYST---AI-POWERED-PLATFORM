@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "career catalyst",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "C:/Users/ADMIN/Downloads/saas-landing-page-main/saas-landing-page-main/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "career catalyst"
+	}
+}

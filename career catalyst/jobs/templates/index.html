@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #100425;
+            text-align: center;
+            
+        }
+        body h1{
+            color:white;
+        }
+        body h2{
+            color:white;
+        }
+        .search-container {
+            margin-top: 20px;
+        }
+        input {
+            width: 60%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            background: linear-gradient(90deg, #ff00ff, #00ffff);;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .job-container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            text-align: left;
+        }
+        .job-card {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .job-card h3 {
+            color:#e70bb7;
+        }
+        .job-card a {
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(90deg, #ff00ff, #00ffff);
+  color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Find Your Dream Job</h1>
+    
+    <div class="search-container">
+        <form method="POST">
+            <input type="text" name="search" placeholder="Search for jobs (e.g., Software Engineer, Marketing)" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    {% if jobs %}
+        <h2>Job Results</h2>
+        <div class="job-container">
+            {% for job in jobs %}
+            <div class="job-card">
+                <h3>{{ job['job_title'] }}</h3>
+                <p><strong>Company:</strong> {{ job['employer_name'] }}</p>
+                <p><strong>Location:</strong> {{ job['job_city'] }}, {{ job['job_country'] }}</p>
+                <a href="{{ job['job_apply_link'] }}" target="_blank">Apply Now</a>
+            </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</body>
+</html>

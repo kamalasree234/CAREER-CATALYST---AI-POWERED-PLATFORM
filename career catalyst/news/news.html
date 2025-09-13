@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Catalyst - News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            text-align: center;
+        }
+        .search-container {
+            margin: 20px auto;
+            width: 50%;
+        }
+        h1{
+            width: 100%;
+            display: block;
+            background: linear-gradient(90deg, #ff00ff, #00ffff); /* Gradient colors */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 100%;
+            font-size: 18px;
+            border: 2px solid #0f3460;
+            border-radius: 5px;
+            outline: none;
+        }
+        button {
+            margin-top:20px;
+            padding: 20px;
+            background: linear-gradient(90deg, #ff00ff, #00ffff);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size:20px;
+        }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .news-article {
+            background: #16213e;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .news-article:hover {
+            transform: translateY(-5px);
+        }
+        .news-article img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .news-article h3 a {
+            color: #e0e0e0;
+            text-decoration: none;
+        }
+        .news-article h3 a:hover {
+            text-decoration: underline;
+        }
+        .news-article p {
+            font-size: 14px;
+            color: #b0b0b0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 28px; font-weight: bold;">CAREER CATALYST :IGNITE THE FUTURE</h1>
+    <h1 style=" font-size: 28px; font-weight: bold;">Stay Informed, Stay Empowered!</h1>
+<p style="color: #33e0fb; font-size: 28px;">Breaking News, Trends & Insights from Around the World</p>
+
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Search news...">
+        <button onclick="searchNews()">Search</button>
+    </div>
+    <div id="newsContainer" class="news-grid">
+        <!-- News articles will be dynamically inserted here -->
+    </div>
+
+    <script src="news1.js"></script>
+</body>
+</html>
