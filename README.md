@@ -12,3 +12,14 @@ Key features of Career Catalyst include:
 With a user-friendly interface and AI-driven insights, Career Catalyst serves as an all-in-one solution for individuals aiming to navigate their careers with confidence and clarity. 
 
 <img src ="Picture11.jpg" width="600">
+<img src ="Picture22.jpg" width="600">
+<img src ="Picture33.jpg" width="600">
+<img src ="Picture44.jpg" width="600">
+<img src ="Picture55.jpg" width="600">
+<img src ="Picture66.jpg" width="600">
+<img src ="Picture77.jpg" width="600">
+<img src ="Picture88.jpg" width="600">
+<img src ="Picture99.jpg" width="600">
+<img src ="Picture1010.jpg" width="600">
+<img src ="Picture1111.jpg" width="600">
+
